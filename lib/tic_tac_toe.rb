@@ -98,10 +98,10 @@ class TicTacToe
 
   # removed board as an argument #
   def play
-    turn(@board) until over?(@board)
-    if won?(@board)
-      puts "Congratulations #{winner(@board)}!"
-    elsif draw?(@board)
+    turn until over?
+    if won?
+      puts "Congratulations #{winner}!"
+    elsif draw?
       puts "Cat's Game!"
     end
   end
