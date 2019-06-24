@@ -81,7 +81,7 @@ class TicTacToe
 
   # removed board as an argument #
   def draw?
-    !won?(@board) && full?(@board)
+    !won? && full?
   end
 
   # removed board as an argument #
