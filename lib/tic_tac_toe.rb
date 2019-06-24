@@ -62,7 +62,7 @@ class TicTacToe
 
   # removed board as an argument #
   def current_player
-    turn_count(@board).even? ? 'X' : 'O'
+    turn_count.even? ? 'X' : 'O'
   end
 
 # removed board as an argument #
