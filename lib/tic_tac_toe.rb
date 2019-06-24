@@ -33,8 +33,8 @@ class TicTacToe
   end
 
   # removed board as an argument #
-  def position_taken?(index)
-    @board[index] == 'X' || @board[index] == 'O'
+  def position_taken?
+    @board == 'X' || @boards == 'O'
   end
 
   # removed board as an argument #
