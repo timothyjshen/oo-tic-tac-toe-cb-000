@@ -91,8 +91,8 @@ class TicTacToe
 
   # removed board as an argument #
   def winner
-    if winning_combo = won?
-      winning_combo.first
+    if winning_combo = won?(@board)
+      @board[winning_combo.first]
     end
   end
 
